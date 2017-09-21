@@ -1,0 +1,77 @@
+h1, h3 {
+  margin: 0;
+  padding: 0; }
+
+html, body, #app {
+  height: 100%;
+  position: relative; }
+
+body {
+  font-size: 14px;
+  margin: 0;
+  padding: 0; }
+
+.full-height {
+  height: 100%; }
+
+* {
+  box-sizing: border-box; }
+
+a {
+  color: #333;
+  text-decoration: none; }
+
+.navs {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  padding-top: .12rem;
+  background-color: #fff;
+  height: 1.333333rem;
+  -webkit-box-shadow: 0 -0.02667rem 0.05333rem rgba(0, 0, 0, 0.1);
+  box-shadow: 0 -0.02667rem 0.05333rem rgba(0, 0, 0, 0.1); }
+  .navs a {
+    flex-grow: 1;
+    flex-shrink: 1;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 0.8em; }
+    .navs a span:first-child {
+      font-size: 1.5em; }
+  .navs a.active {
+    color: #0089dc; }
+
+.waimai .waimai-header {
+  height: 131px;
+  background-image: -webkit-gradient(linear, left top, right top, from(#0af), to(#0085ff));
+  background-image: -webkit-linear-gradient(left, #0af, #0085ff);
+  background-image: linear-gradient(90deg, #0af, #0085ff);
+  padding: 10px; }
+  .waimai .waimai-header a, .waimai .waimai-header p, .waimai .waimai-header span {
+    color: #fff; }
+  .waimai .waimai-header h3 {
+    display: flex;
+    justify-content: space-between; }
+  .waimai .waimai-header .waimai-header__search {
+    height: 45px;
+    padding: 5px;
+    margin-top: 15px; }
+    .waimai .waimai-header .waimai-header__search input {
+      display: block;
+      width: 100%;
+      height: 100%;
+      background: #fff;
+      border: none;
+      outline: none;
+      padding: 5px; }
+
+.content__header__nav {
+  margin-top: 10px; }
+  .content__header__nav .swiper-slide {
+    color: #fff;
+    display: inline-block;
+    width: auto;
+    margin: 0px 15px; }

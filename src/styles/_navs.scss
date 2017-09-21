@@ -1,0 +1,27 @@
+
+@import './_base.scss';
+.navs{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    a{
+        flex-grow: 1;flex-shrink: 1;
+        display: flex;flex-flow: column;
+        align-items: center;justify-content: space-around;
+        font-size: 0.8em;
+        span:first-child{
+            font-size: 1.5em;
+        }
+    }
+    a.active{
+        color: $base-color;
+    }
+   
+   
+    padding-top: .12rem;
+    background-color: #fff;
+    height: 1.333333rem;
+    -webkit-box-shadow: 0 -0.026667rem 0.053333rem rgba(0,0,0,.1);
+    box-shadow: 0 -0.026667rem 0.053333rem rgba(0,0,0,.1);
+}
